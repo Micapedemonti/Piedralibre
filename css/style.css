@@ -1,0 +1,38 @@
+body{
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 10vh;
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+}
+
+.bgVideo{
+width: 100%;
+}
+.cajaInferior{
+    display: flex;
+    gap: 5%;
+    margin: 5%;
+}
+.about{
+    width: 50%;
+}
+.btnContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnCurso{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+nav{
+
+}
