@@ -1,5 +1,8 @@
 body{
+    background-color:#f7f1f1 !important;
 }
+
+
 main{
     height: 100%;
     width: 100%;
@@ -17,10 +20,21 @@ width: 100%;
 .cajaInferior{
     display: flex;
     gap: 5%;
-    margin: 5%;
+    margin: 10%;
 }
 .about{
     width: 50%;
+}
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.fotoCarr{
+    width: 200px !important;
 }
 .btnContainer{
     width: 50%;
