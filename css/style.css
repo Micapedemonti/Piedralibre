@@ -11,9 +11,14 @@ body{
 
 .cajaSuperior{
 background-image: url(../img/chloe-bolton-R0qthXq3jec-unsplash.jpg);
-height: 600px;
+height: 680px;
     background-size: cover;
     background-position: bottom;
+}
+.vid{
+  height: 300px;
+  border-radius: 10px;
+  border: 10px white solid;
 }
 .portada{
   /* background-image: url(../img//1612248390736_0.webp);
@@ -30,17 +35,30 @@ header{
 }
 .navbar{
     background-color: transparent;
+    font-weight: bolder;
 }
 .bgVideo{
 width: 100%;
 }
 .cajaInferior{
-    display: flex;
-    gap: 5%;
-    margin: 10%;
+  display: flex;
+  gap: 5%;
+  margin: 5%;
+  height: 500px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .about{
-    width: 50%;
+  width: 40%;
+}
+.about h1{
+  font-family:'Nova Square', cursive;
+  font-size: 2rem;
+}
+.about p{
+  font-family:'Nova Square', cursive;
+  font-size: 1rem;
 }
 .carrusel{
     display: flex;
@@ -48,7 +66,8 @@ width: 100%;
     justify-content: center;
     align-items: center;
     gap: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
+    width: 100%;
 }
 .fotoCarr{
     width: 200px !important;
@@ -73,12 +92,13 @@ width: 100%;
     transition: all .5s ease;
     text-decoration: none;
     color: black;
+    opacity: 90%;
 }
 .btnS:hover{
     letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+    background-color: #E8E3CC;
+    color: black;
+    box-shadow: #E8E2D1 0px 7px 29px 0px;
 }
 .btnS:active{
     letter-spacing: 3px;
@@ -98,19 +118,20 @@ nav{
     height:250px;
   }
   .products{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 30px 9px; 
-    grid-template-areas: 
-      ". . ."
-      ". . ."
-      ". . ."; 
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5% 5%;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
     margin: 5%;
     justify-items: center;
+    justify-content: center;
 }
 .card-body{
-    height: 200px;
+    height: 150px;
 }
 .card-body h2{
     font-size: 20px;
@@ -119,22 +140,31 @@ nav{
     font-size: 15px;
 }
 .imgPortada{
-    width: 300px;
+    width: 350px;
+    border: 10px white solid;
 }
 .shopContainer{
     display: flex;
     flex-direction: row;
     margin: 10%;
     align-items: center;
-    justify-content: space-around;
-    gap: 5%;
+    gap: 3%;
+    justify-content: center;
 }
 .containerText{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
-
+.containerText h2{
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 5rem;
+}
+.containerText p{
+font-family: 'Nova Square', cursive;
+font-size: 2rem;
+}
 .box {
     height: auto;
     float: left;
@@ -202,3 +232,27 @@ nav{
     border: none;
     background: transparent;
   }
+.containerCarrusel{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+}
+.imgCarrusel{
+  height: 250px;
+  border-radius: 5px;
+  border: 10px white solid;
+}
+.visit{
+  display: flex;
+  gap: 3%;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+.visit h1{
+  font-family:'Nova Square', cursive;
+}
+.imgProd{
+  height: 200px;
+}
