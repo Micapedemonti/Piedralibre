@@ -9,7 +9,16 @@ body{
     background-color:#f7f1f1 !important;
 }
 
-
+.cajaSuperior{
+background-image: url(../img/chloe-bolton-R0qthXq3jec-unsplash.jpg);
+height: 600px;
+    background-size: cover;
+    background-position: bottom;
+}
+.portada{
+  /* background-image: url(../img//1612248390736_0.webp);
+  height: 100%; */
+}
 main{
     height: 100%;
     width: 100%;
