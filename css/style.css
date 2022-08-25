@@ -20,16 +20,13 @@ height: 680px;
   border-radius: 10px;
   border: 10px white solid;
 }
-.portada{
-  /* background-image: url(../img//1612248390736_0.webp);
-  height: 100%; */
-}
+
 main{
     height: 100%;
     width: 100%;
 }
 header{
-    height: 10vh;
+
     background-color: transparent;
     width: 100%;
 }
@@ -50,7 +47,7 @@ width: 100%;
   align-items: center;
 }
 .about{
-  width: 40%;
+  width: 60%;
 }
 .about h1{
   font-family:'Nova Square', cursive;
@@ -59,6 +56,19 @@ width: 100%;
 .about p{
   font-family:'Nova Square', cursive;
   font-size: 1rem;
+  width: 70%;
+
+}
+.description{
+  display: flex;
+    gap: 5%;
+}
+.desContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+
 }
 .carrusel{
     display: flex;
@@ -89,6 +99,7 @@ width: 100%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: 15px;
+    font-family:'Nova Square',cursive;
     transition: all .5s ease;
     text-decoration: none;
     color: black;
@@ -108,45 +119,41 @@ width: 100%;
  transform: translateY(10px);
  transition: 100ms;
 }
-.btnTienda{
-
-}
-nav{
-
-}
   .card{
     height:250px;
   }
   .products{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 5% 5%;
+    gap: 2% 5%;
     grid-template-areas:
         ". . ."
         ". . ."
         ". . .";
-    margin: 5%;
+    margin: 7%;
     justify-items: center;
     justify-content: center;
-}
-.card-body{
-    height: 150px;
-}
+  }
+  .box{
+    font-family:'Nova Square',cursive;
+  }
 .card-body h2{
     font-size: 20px;
+    font-family:'Nova Square',cursive;
 }
 .card-body h1{
     font-size: 15px;
+    font-family:'Nova Square',cursive;
 }
 .imgPortada{
-    width: 350px;
+    width: 450px;
     border: 10px white solid;
 }
 .shopContainer{
     display: flex;
     flex-direction: row;
-    margin: 10%;
+    margin: 5%;
     align-items: center;
     gap: 3%;
     justify-content: center;
@@ -154,9 +161,11 @@ nav{
 .containerText{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 }
-
+.box.btnShop{
+padding: 0%;
+}
 .containerText h2{
   font-family: 'Zilla Slab Highlight', cursive;
   font-size: 5rem;
@@ -249,10 +258,52 @@ font-size: 2rem;
   flex-direction: row;
   align-items: center;
   width: 50%;
+  text-decoration: none;
 }
 .visit h1{
   font-family:'Nova Square', cursive;
+  color: black;
+  text-decoration: none;
 }
 .imgProd{
   height: 200px;
+}
+.menu li a {
+  font-family:'Nova Square', cursive ;
+}
+.ContContact{
+  background-image: url(../img/bgcontact.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formContact{
+  width: 1000px;
+  background-color: #f7f1f1;
+  opacity: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.phCon{
+  width: 410px;
+}
+.infContact{
+  width: 50%;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  justify-content: center;
+}
+
+.contactarme{
+  display: flex;
+  align-items: center;
+    gap: 5%;
+}
+.contactarme p{
+  font-family:'Nova Square', cursive; 
 }
