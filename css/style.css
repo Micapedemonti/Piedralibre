@@ -1,9 +1,10 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
 }
 body{
     background-color:#f7f1f1 !important;
@@ -306,4 +307,24 @@ font-size: 2rem;
 }
 .contactarme p{
   font-family:'Nova Square', cursive; 
+}
+
+/* mediasquerys */
+@media only screen and (max-width: 990px) {
+}
+@media only screen and (max-width:663px){
+.cajaSuperior{
+  height: 450px;
+  margin: 5%;
+}
+.cajaInferior{
+  flex-direction: column-reverse;
+  height: 0%;
+}
+.about{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
