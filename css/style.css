@@ -333,12 +333,15 @@ font-size: 2rem;
 .description{
   flex-direction: column;
 }
+.containerCarrusel{
+  gap: 0%;
+}
 .carrusel{
   width: 90%;
   flex-direction: column-reverse;
 }
 .imgCarrusel{
-  width: 200px;
+  width: 150px;
 }
 span, svg {
   display: none;
