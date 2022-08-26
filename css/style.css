@@ -335,6 +335,7 @@ font-size: 2rem;
 }
 .containerCarrusel{
   gap: 0%;
+  flex-direction: column;
 }
 .carrusel{
   width: 90%;
@@ -349,5 +350,8 @@ span, svg {
 .visit{
   width: 100%;
   justify-content: center;
+}
+.vid{
+  height: 150px;
 }
 }
