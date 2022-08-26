@@ -169,7 +169,7 @@ padding: 0%;
 }
 .containerText h2{
   font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .containerText p{
 font-family:'Patrick Hand', cursive;
@@ -322,7 +322,6 @@ h2{
 }
 
 h2:after{
-	content: '';
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -374,6 +373,36 @@ textarea{
 }
 /* mediasquerys */
 @media only screen and (max-width: 990px) {
+.cajaSuperior {
+  height: 500px;
+} 
+.vid{
+  height: 200px;
+}
+.description{
+  flex-direction: column;
+}
+.carrusel{
+  gap: 0%;
+}
+.containerCarrusel{
+  gap:0%
+}
+.imgCarrusel{
+  height: 200px;
+}
+.imgPortada{
+  width: 250px;
+}
+.containerText h2{
+  font-size: 2rem;
+}
+.containerText p {
+  font-size: 1.5rem;
+}
+.products{
+  grid-template-columns: 200px 200px;
+}
 }
 @media only screen and (max-width:663px){
 .cajaSuperior{
